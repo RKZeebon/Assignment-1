@@ -66,3 +66,36 @@ p{
     color: #00008b;
     
 }
+
+.mission-card{
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+}
+
+.card{
+    height: 400px;
+    width: 31%;
+    border-radius: 25px;
+    padding: 0 25px;
+    
+}
+.card img{
+    width: 150px;
+
+}
+.card h3{
+    font-size: 25px;
+}
+
+#card-1{
+    background-color: #008b8b34;
+}
+
+#card-2{
+    background-color: #9eb0f8;
+}
+
+#card-3{
+    background-color: #c0c0c0;
+}
