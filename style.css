@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    
+}
+.description{
+    width: 50%;
+    padding-top: 35px;
+}
+
+.my-img img{
+    width: 500px;
+    clip-path: circle();
+}
+
+.title{
+    padding-left: 5px;
+    font-size: 80px;
+    border-left: 5px solid #6056ac;
+}
+span{
+    color: #00008b;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p{
+    padding: 25px 0;
+    font-size: 22px;
+}
+.btn{
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #6056ac;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: .8s;
+}
+.btn:hover{
+    background-color: #00008b;
+    color: wheat;
+}
