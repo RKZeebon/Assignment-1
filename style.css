@@ -31,7 +31,7 @@ body{
     font-size: 80px;
     border-left: 5px solid #6056ac;
 }
-span{
+.title span{
     color: #00008b;
     font-family: 'Libre Baskerville', serif;
 }
@@ -54,3 +54,15 @@ p{
     color: wheat;
 }
 
+
+.mission-title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.mission-title span{
+    color: #00008b;
+    
+}
