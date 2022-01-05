@@ -64,7 +64,6 @@ p{
 
 .mission-title span{
     color: #00008b;
-    
 }
 
 .mission-card{
@@ -98,4 +97,32 @@ p{
 
 #card-3{
     background-color: #c0c0c0;
+}
+
+
+.Develop{
+    display: flex;
+    margin: 100px 0;
+        
+}
+.coding{
+    
+    justify-content: space-between;
+}
+.coding img{
+    width: 450px;
+}
+
+#coding-text{
+    padding-top: 60px;
+    padding-left: 10%;
+}
+
+#coding-text h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#coding-text span{
+    color: #00008b;
 }
