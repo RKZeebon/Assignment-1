@@ -2,20 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body{
     width: 80%;
     margin: 0 auto;
 }
-/*part-1*/
+
+
+
 .about-me{
     display: flex;
     justify-content: space-between;
     margin: 80px 0;
-    
 }
+
 .description{
     width: 50%;
     padding-top: 35px;
@@ -25,21 +26,23 @@ body{
     width: 500px;
     clip-path: circle();
 }
+
 .vertical-line{
     display: flex;
 }
 
 #line{
-    margin-top: 18px;
+    margin-top: 12px;
     border-left: 6px solid #6056ac;
-    height: 138px;
-
+    height: 120px;
 }
+
 .title{
     padding-left: 5px;
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Philosopher', sans-serif;
 }
+
 .title span{
     color: #00008b;
     font-family: 'Poppins', sans-serif;
@@ -47,8 +50,9 @@ body{
 
 p{
     padding: 25px 0;
-    font-size: 22px;
+    font-size: 20px;
 }
+
 .btn{
     border: none;
     font-size: 20px;
@@ -58,17 +62,18 @@ p{
     border-radius: 5px;
     transition: .8s;
 }
+
 .btn:hover{
     background-color: #00008b;
     color: wheat;
 }
 
-/*part-2*/
+
+
 .mission-title{
     text-align: center;
     font-size: 50px;
     font-family: 'Philosopher', sans-serif;
-        
 }
 
 .mission-title span{
@@ -87,13 +92,13 @@ p{
     width: 31%;
     border-radius: 25px;
     padding: 0 25px;
-    box-shadow: 8px 8px 15px gray ;
-    
+    box-shadow: 8px 8px 15px gray;
 }
+
 .card img{
     width: 150px;
-
 }
+
 .card h3{
     font-size: 25px;
 }
@@ -110,16 +115,18 @@ p{
     background-color: #c0c0c0;
 }
 
-/*part-3*/
+
+
 .Develop{
     display: flex;
     margin: 40px 0;
-        
 }
+
 .coding{
     
     justify-content: space-between;
 }
+
 .coding img{
     width: 500px;
 }
@@ -131,8 +138,7 @@ p{
 
 #coding-title h2{
     font-size: 40px;
-    font-family: 'Philosopher', sans-serif;
-    
+    font-family: 'Philosopher', sans-serif; 
 }
 
 #coding-title span{
@@ -140,16 +146,17 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-/*part-4*/
+
 
 .working-projects{
     display: flex;
-    margin: 40px 0;
-        
+    margin: 40px 0;  
 }
+
 .projects{
     justify-content: space-between;
 }
+
 .projects img{
     width: 450px;
 }
@@ -169,7 +176,34 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-/*part-4*/
+
+
+.wishes{
+    display: flex;
+    margin: 40px 0;
+    padding: 25px 0;
+    background-color: #e4dedebe;
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px gray;
+}
+
+.wish-me{
+    width: 50%;
+}
+.wish-me h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.wish-me form input, textarea{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
 .copyright{
     text-align: center;
     background-color: #1c1d1f;
@@ -183,10 +217,12 @@ p{
     font-family: 'Abril Fatface', cursive;
     letter-spacing: .2em;
 }
+
 #footer-mission span{
     color: #00dfc0 ;
 }
+
 #footer-dialogue{
-    color: white;
-    
+    color: white; 
 }
+
