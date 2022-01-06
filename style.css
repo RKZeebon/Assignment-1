@@ -9,7 +9,7 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-
+/*part-1*/
 .about-me{
     display: flex;
     justify-content: space-between;
@@ -28,12 +28,12 @@ body{
 
 .title{
     padding-left: 5px;
-    font-size: 80px;
+    font-size: 70px;
     border-left: 5px solid #6056ac;
 }
 .title span{
     color: #00008b;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 p{
@@ -54,7 +54,7 @@ p{
     color: wheat;
 }
 
-
+/*part-2*/
 .mission-title{
     text-align: center;
     font-size: 50px;
@@ -99,10 +99,10 @@ p{
     background-color: #c0c0c0;
 }
 
-
+/*part-3*/
 .Develop{
     display: flex;
-    margin: 100px 0;
+    margin: 50px 0;
         
 }
 .coding{
@@ -110,11 +110,11 @@ p{
     justify-content: space-between;
 }
 .coding img{
-    width: 450px;
+    width: 500px;
 }
 
 #coding-text{
-    padding-top: 60px;
+    padding-top: 80px;
     padding-left: 10%;
 }
 
@@ -125,4 +125,55 @@ p{
 
 #coding-text span{
     color: #00008b;
+}
+
+/*part-4*/
+
+.global-community{
+    display: flex;
+    margin: 50px 0;
+        
+}
+.community{
+    
+    justify-content: space-between;
+}
+.community img{
+    width: 450px;
+}
+
+#community-text{
+    padding-top: 60px;
+    padding-right: 10%;
+}
+
+#community-text h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#community-text span{
+    color: #00008b;
+}
+
+/*part-4*/
+.copyright{
+    text-align: center;
+    background-color: #1c1d1f;
+    margin: 0 -12.5%;
+    height: 200px;    
+}
+
+#footer-mission{
+    color: white;
+    padding-top: 75px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: .2em;
+}
+#footer-mission span{
+    color: #00dfc0 ;
+}
+#footer-dialogue{
+    color: white;
+    
 }
