@@ -32,9 +32,9 @@ body{
 }
 
 #line{
-    margin-top: 12px;
+    margin: 4.5% 0;
     border-left: 6px solid #6056ac;
-    height: 120px;
+    height: 130px;
 }
 
 .title{
